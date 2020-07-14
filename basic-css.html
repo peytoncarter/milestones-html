@@ -17,6 +17,9 @@ h1 {
 h2{
   color:rgb(238, 44, 206);
 }
+div > h2 {
+  color: purple;
+}
 div.upper {
   text-transform: uppercase;
 }
@@ -101,8 +104,15 @@ ol.lowercase {
 </section>
 
 
+<h2> All of the headings are pink, that is an example of a descendant combinator</h2>
 
+<!--firgured out what this is from this site:-->
+<!--https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator#:~:text=The%20child%20combinator%20(%20%3E%20)%20is,elements%20matched%20by%20the%20first.&text=
+  Elements%20matched%20by%20the%20second%20selector%20must%20be%20the%20immediate,matched%20by%20the%20first%20selector.-->
 
+<div>
+  <h2>This header will not be the same as the others, because I changed it to purple with a child combinator.</h2>
+</div>
 
 </body>
 </html>
