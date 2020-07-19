@@ -40,3 +40,13 @@ p {
 #body1 , #body2 {
   text-align: center;
 }
+#helplist {
+  text-align: left;
+  color: white;
+}
+#helppics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
