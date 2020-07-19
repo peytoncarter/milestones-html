@@ -1,3 +1,42 @@
 body {
-  background-color: white;
+  background-color: #a8739a;
+}
+.topnav {
+  background-color: #5c5a59;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #181061;
+}
+.topnav a.active {
+  background-color:white;
+  color: white;
+}
+.smiley {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: dotted salmon 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#head1 , #head2 {
+  color: #e0de6a;
+  text-align: center;
+}
+p {
+  color: white;
+}
+#body1 , #body2 {
+  text-align: center;
 }
