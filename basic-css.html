@@ -1,130 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basic CSS</title>
   <link rel="stylesheet" href="style.css">
 
-<style>
-body {
-  background-color: rgb(119, 204, 238);
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/9dots.svg/1200px-9dots.svg.png")
-}
-h1 {
-  color: purple;
-  text-align: center;
-}
-h2{
-  color:rgb(238, 44, 206);
-}
-div > h2 {
-  color: purple;
-}
-div.upper {
-  text-transform: uppercase;
-  color: white;
-}
-div.lineheight {
-  line-height:200%;
-}
-div.letterspacing {
-  letter-spacing: 10px;
-}
-div.family {
-  font-family: "comic sans ms";
-}
-div.size {
-  font-size: 30px;
-}
-div.style {
-  font-style: italic;
-}
-div.weight {
-  font-weight: bold;
-}
-ol.uproman{
-  list-style-type: upper-roman;
-}
-ol.lowercase {
-  list-style-type: lower-alpha;
-}
-#penguin {
-  border:solid rgb(238, 44, 206) 20px;
-  margin: 20px;
-  padding: 10px;
-}
+  <style>
+    body {
+      background-color: rgb(119, 204, 238);
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/9dots.svg/1200px-9dots.svg.png")
+    }
 
+    h1 {
+      color: purple;
+      text-align: center;
+    }
 
-</style>
+    h2 {
+      color: rgb(238, 44, 206);
+    }
+
+    div>h2 {
+      color: purple;
+    }
+
+    div.upper {
+      text-transform: uppercase;
+      color: white;
+    }
+
+    div.lineheight {
+      line-height: 200%;
+    }
+
+    div.letterspacing {
+      letter-spacing: 10px;
+    }
+
+    div.family {
+      font-family: "comic sans ms";
+    }
+
+    div.size {
+      font-size: 30px;
+    }
+
+    div.style {
+      font-style: italic;
+    }
+
+    div.weight {
+      font-weight: bold;
+    }
+
+    ol.uproman {
+      list-style-type: upper-roman;
+    }
+
+    ol.lowercase {
+      list-style-type: lower-alpha;
+    }
+
+    #penguin {
+      border: solid rgb(238, 44, 206) 20px;
+      margin: 20px;
+      padding: 10px;
+    }
+  </style>
 
 
 </head>
+
 <body>
 
   <div class="topnav">
-    <a class="home" href = "index.html">Home</a>
-    <a href = "snippet.html">Snippet</a>
-    <a href = "basic-tags.html">Basic Tags</a>
-    <a href = "basic-tags-styles.html">Tag Styles</a>
-    <a href = "basic-css.html">CSS</a>
-    <a href = "multimedia.html">Multimedia</a>
+    <a class="home" href="index.html">Home</a>
+    <a href="snippet.html">Snippet</a>
+    <a href="basic-tags.html">Basic Tags</a>
+    <a href="basic-tags-styles.html">Tag Styles</a>
+    <a href="basic-css.html">CSS</a>
+    <a href="multimedia.html">Multimedia</a>
   </div>
 
 
   <h1>Some CSS Stuff</h1>
 
-<h2>text-transformation</h2>
-   <div class="upper">this is text transfrom to all uppercase letters</div>
+  <h2>text-transformation</h2>
+  <div class="upper">this is text transfrom to all uppercase letters</div>
 
-<h2>line-height</h2>
+  <h2>line-height</h2>
   <div class="lineheight">These lines will be<br>
-  double-spaced, because I set the line height to 200%</div>
+    double-spaced, because I set the line height to 200%</div>
 
-<h2>letter-spacing</h2>
-    <div class="letterspacing"> my name is peyton carter and these letters are far apart</div>
+  <h2>letter-spacing</h2>
+  <div class="letterspacing"> my name is peyton carter and these letters are far apart</div>
 
-<h2>font-family, font-size, font-style, font-weight</h2>
-    <div class="family">this font family is comic sans</div>
-    <div class="size">this will be a pretty big font size </div>
-    <div class="style">this font style will be in italics</div>
-    <div class="weight">this font weight will be set at bold. super heavy</div>
+  <h2>font-family, font-size, font-style, font-weight</h2>
+  <div class="family">this font family is comic sans</div>
+  <div class="size">this will be a pretty big font size </div>
+  <div class="style">this font style will be in italics</div>
+  <div class="weight">this font weight will be set at bold. super heavy</div>
 
-<h2>list-style-type</h2>
-    <ol class="uproman">
-      <li>my</li>
-      <li>name</li>
-      <li>is</li>
-      <li>peyton</li>
-    </ol>
-
-    <br>
-
-   <ol class="lowercase">
-      <li>my</li>
-      <li>name</li>
-      <li>is</li>
-      <li>peyton</li>
+  <h2>list-style-type</h2>
+  <ol class="uproman">
+    <li>my</li>
+    <li>name</li>
+    <li>is</li>
+    <li>peyton</li>
   </ol>
 
-<section>
-<h2>margin, padding, border</h2>
+  <br>
 
-  <p> This image, padding, margin, and border of the penguin were edited with an <code>id</code> tag. </p>
-  <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKIWgaiJUtss/v2/1000x-1.jpg" alt="penguin on ice" id="penguin"
-  height=400 weight=400>
-</section>
+  <ol class="lowercase">
+    <li>my</li>
+    <li>name</li>
+    <li>is</li>
+    <li>peyton</li>
+  </ol>
+
+  <section>
+    <h2>margin, padding, border</h2>
+
+    <p> This image, padding, margin, and border of the penguin were edited with an <code>id</code> tag. </p>
+    <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKIWgaiJUtss/v2/1000x-1.jpg" alt="penguin on ice"
+      id="penguin" height=400 weight=400>
+  </section>
 
 
-<h2> All of the headings are pink, that is an example of a descendant combinator</h2>
+  <h2> All of the headings are pink, that is an example of a descendant combinator</h2>
 
-<!--firgured out what this is from this site:-->
-<!--https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator#:~:text=The%20child%20combinator%20(%20%3E%20)%20is,elements%20matched%20by%20the%20first.&text=
+  <!--firgured out what this is from this site:-->
+  <!--https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator#:~:text=The%20child%20combinator%20(%20%3E%20)%20is,elements%20matched%20by%20the%20first.&text=
   Elements%20matched%20by%20the%20second%20selector%20must%20be%20the%20immediate,matched%20by%20the%20first%20selector.-->
 
-<div>
-  <h2>This header will not be the same as the others, because I changed it to purple with a child combinator.</h2>
-</div>
+  <div>
+    <h2>This header will not be the same as the others, because I changed it to purple with a child combinator.</h2>
+  </div>
 
 </body>
+
 </html>
